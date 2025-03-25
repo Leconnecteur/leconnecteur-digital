@@ -10,7 +10,7 @@ const ScrollAnimation = dynamic(() => import('@/components/ui/ScrollAnimation'),
 });
 
 export default function MentionsLegales() {
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [, setIsLoaded] = useState(false);
 
   useEffect(() => {
     setIsLoaded(true);
@@ -82,20 +82,20 @@ export default function MentionsLegales() {
                 <div>
                   <h2 className="text-2xl font-semibold mb-4 text-blue-400">3. Propriété intellectuelle</h2>
                   <p className="text-gray-300 mb-4">
-                    L'ensemble du contenu du site Le Connecteur Digital (textes, images, vidéos, logos, icônes, structure, base de données, etc.) est protégé par le droit d'auteur et reste la propriété exclusive de Le Connecteur Digital ou de ses partenaires.
+                    L&apos;ensemble du contenu du site Le Connecteur Digital (textes, images, vidéos, logos, icônes, structure, base de données, etc.) est protégé par le droit d&apos;auteur et reste la propriété exclusive de Le Connecteur Digital ou de ses partenaires.
                   </p>
                   <p className="text-gray-300 mb-4">
                     Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de Le Connecteur Digital.
                   </p>
                   <p className="text-gray-300">
-                    Toute exploitation non autorisée du site ou de l'un quelconque des éléments qu'il contient sera considérée comme constitutive d'une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.
+                    Toute exploitation non autorisée du site ou de l&apos;un quelconque des éléments qu&apos;il contient sera considérée comme constitutive d&apos;une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-2xl font-semibold mb-4 text-blue-400">4. Liens hypertextes</h2>
                   <p className="text-gray-300 mb-4">
-                    Le site Le Connecteur Digital peut contenir des liens hypertextes vers d'autres sites internet. Le Connecteur Digital n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu.
+                    Le site Le Connecteur Digital peut contenir des liens hypertextes vers d&apos;autres sites internet. Le Connecteur Digital n&apos;exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu.
                   </p>
                   <p className="text-gray-300">
                     La création de liens hypertextes vers le site Le Connecteur Digital nécessite une autorisation préalable écrite.
@@ -105,10 +105,10 @@ export default function MentionsLegales() {
                 <div>
                   <h2 className="text-2xl font-semibold mb-4 text-blue-400">5. Limitation de responsabilité</h2>
                   <p className="text-gray-300 mb-4">
-                    Le Connecteur Digital s'efforce d'assurer au mieux de ses possibilités l'exactitude et la mise à jour des informations diffusées sur son site, dont elle se réserve le droit de corriger le contenu à tout moment et sans préavis.
+                    Le Connecteur Digital s&apos;efforce d&apos;assurer au mieux de ses possibilités l&apos;exactitude et la mise à jour des informations diffusées sur son site, dont elle se réserve le droit de corriger le contenu à tout moment et sans préavis.
                   </p>
                   <p className="text-gray-300">
-                    Toutefois, Le Connecteur Digital ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur son site. En conséquence, Le Connecteur Digital décline toute responsabilité pour tout dommage résultant notamment d'une imprécision ou inexactitude des informations disponibles sur ce site, ou pour toute atteinte résultant d'une intrusion frauduleuse d'un tiers.
+                    Toutefois, Le Connecteur Digital ne peut garantir l&apos;exactitude, la précision ou l&apos;exhaustivité des informations mises à disposition sur son site. En conséquence, Le Connecteur Digital décline toute responsabilité pour tout dommage résultant notamment d&apos;une imprécision ou inexactitude des informations disponibles sur ce site, ou pour toute atteinte résultant d&apos;une intrusion frauduleuse d&apos;un tiers.
                   </p>
                 </div>
 

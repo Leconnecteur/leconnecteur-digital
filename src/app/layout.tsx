@@ -3,6 +3,8 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import MainLayout from "@/components/layout/MainLayout";
 import Script from "next/script";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { defaultMetadata } from "./metadata";
 
 // Optimisation des polices avec font-display: swap
@@ -19,7 +21,11 @@ const poppins = Poppins({
   variable: '--font-poppins',
 });
 
-export const metadata = defaultMetadata;
+export const metadata: Metadata = {
+  ...defaultMetadata,
+  title: 'Le Connecteur Digital - Création de sites web et marketing digital',
+  description: 'Le Connecteur Digital vous accompagne dans la création de votre site web et votre stratégie marketing digitale. Basé à Bayonne, nous intervenons dans tout le Pays Basque.',
+};
 
 export default function RootLayout({
   children,
@@ -29,12 +35,27 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`scroll-smooth ${inter.variable} ${poppins.variable}`}>
       <head>
+        {/* Preconnect to Google Fonts */}
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+        />
+        
+        {/* Google Fonts */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="theme-color" content="#1e40af" />
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="apple-touch-icon" href="/favicon.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
       </head>
@@ -67,6 +88,8 @@ export default function RootLayout({
             })
           }}
         />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

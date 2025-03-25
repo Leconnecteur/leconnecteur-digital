@@ -146,7 +146,7 @@ export default function Contact() {
                   <div className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 rounded-full blur-3xl group-hover:bg-blue-400/20 transition-all duration-700"></div>
                   <h3 className="text-xl font-bold text-white mb-2">Combien coûte un site web ?</h3>
                   <p className="text-gray-300">
-                    Le coût d'un site web varie en fonction de vos besoins spécifiques, de la complexité du projet et des fonctionnalités requises. Nous proposons des solutions adaptées à tous les budgets. Contactez-nous pour obtenir un devis personnalisé.
+                    Le coût d&apos;un site web varie en fonction de vos besoins spécifiques, de la complexité du projet et des fonctionnalités requises. Nous proposons des solutions adaptées à tous les budgets. Contactez-nous pour obtenir un devis personnalisé.
                   </p>
                 </ScrollAnimation>
                 
@@ -154,7 +154,7 @@ export default function Contact() {
                   <div className="absolute -top-24 -right-24 w-48 h-48 bg-purple-500/10 rounded-full blur-3xl group-hover:bg-purple-400/20 transition-all duration-700"></div>
                   <h3 className="text-xl font-bold text-white mb-2">Combien de temps faut-il pour créer un site web ?</h3>
                   <p className="text-gray-300">
-                    La durée de création d'un site web dépend de sa complexité. Un site vitrine simple peut être réalisé en 2-3 semaines, tandis qu'un site e-commerce ou une application web plus complexe peut prendre 2-3 mois ou plus.
+                    La durée de création d&apos;un site web dépend de sa complexité. Un site vitrine simple peut être réalisé en 2-3 semaines, tandis qu&apos;un site e-commerce ou une application web plus complexe peut prendre 2-3 mois ou plus.
                   </p>
                 </ScrollAnimation>
                 
@@ -202,7 +202,7 @@ export default function Contact() {
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Prêt à lancer votre projet digital ?</h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              N'attendez plus pour transformer votre vision en réalité. Notre équipe est prête à vous accompagner à chaque étape.
+              N&apos;attendez plus pour transformer votre vision en réalité. Notre équipe est prête à vous accompagner à chaque étape.
             </p>
             
             <div className="flex justify-center">
