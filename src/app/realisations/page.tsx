@@ -19,7 +19,7 @@ const projects = [
     title: "Clem Detailing",
     category: "Site Web",
     description: "Mise en place d'un système de réservation en ligne pour faciliter la prise de rendez-vous et augmenter le chiffre d'affaire",
-    image: "/images/realisations/clem-detailing.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/clem-detailing.png",
     link: "https://clemdetailing.fr/"
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     title: "Classic Auto Vintage",
     category: "Site Web",
     description: "Site e-commerce dédié aux voitures de collection",
-    image: "/images/realisations/classic-auto-vintage.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/classic-auto-vintage.png",
     link: "https://classicautovintage.fr/"
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     title: "Publicom 64",
     category: "Site Web",
     description: "Site vitrine pour une agence de communication locale",
-    image: "/images/realisations/publicom64.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/publicom64.png",
     link: "https://publicom64.com/"
   },
   {
@@ -43,7 +43,7 @@ const projects = [
     title: "Life Spa",
     category: "Site Web",
     description: "Création d'un site vitrine pour l'ouverture d'un magasin de spas, permettant de présenter les produits et d'attirer de nouveaux clients",
-    image: "/images/realisations/lifespa.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/lifespa.png",
     link: "https://lifespa.fr/"
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     title: "Aquarevet",
     category: "Site Web",
     description: "Site vitrine pour un service vétérinaire spécialisé en aquariophilie",
-    image: "/images/realisations/aquarevet.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/aquarevet.png",
     link: "https://aquarevet.fr/"
   },
   {
@@ -59,7 +59,7 @@ const projects = [
     title: "Clem Detailing Instagram",
     category: "Social Ads",
     description: "Gestion des réseaux sociaux pour Clem Detailing",
-    image: "/images/realisations/clem-detailing-instagram.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/clem-detailing-instagram.png",
     link: "https://www.instagram.com/clem_detailingcar/"
   },
   {
@@ -67,7 +67,7 @@ const projects = [
     title: "Classic Auto Vintage Publicité",
     category: "Visuels",
     description: "Création de panneaux publicitaires pour une entreprise de voitures de collection",
-    image: "/images/realisations/classic-auto-vintage-pub.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/classic-auto-vintage-pub.png",
     link: "https://classicautovintage.fr/"
   },
   {
@@ -75,7 +75,7 @@ const projects = [
     title: "Classic Auto Vintage Carte",
     category: "Visuels",
     description: "Création de carte de visite pour Classic Auto Vintage",
-    image: "/images/realisations/classic-auto-vintage-carte.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/classic-auto-vintage-carte.png",
     link: "https://classicautovintage.fr/"
   },
   {
@@ -83,7 +83,7 @@ const projects = [
     title: "Clem Detailing Publicité",
     category: "Visuels",
     description: "Conception de panneaux publicitaires pour un service de detailing automobile",
-    image: "/images/realisations/clem-detailing-pub.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/clem-detailing-pub.png",
     link: "https://clemdetailing.fr/"
   },
   {
@@ -91,7 +91,7 @@ const projects = [
     title: "PergoLife Logo",
     category: "Visuels",
     description: "Création d'un logo pour l'entreprise PergoLife",
-    image: "/images/realisations/pergolife-logo.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/pergolife-logo.png",
     link: "#"
   },
   {
@@ -99,7 +99,7 @@ const projects = [
     title: "VertRénov",
     category: "Visuels",
     description: "Création d'identité visuelle complète pour une entreprise de multiservice",
-    image: "/images/realisations/vertrenov.png",
+    image: "https://raw.githubusercontent.com/Leconnecteur/leconnecteur-digital/main/public/images/realisations/vertrenov.png",
     link: "#"
   }
 ];
